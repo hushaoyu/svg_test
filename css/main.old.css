@@ -1,0 +1,20 @@
+a {
+    text-decoration: none
+}
+
+h1 {
+    color: #0d31e8;
+}
+
+.sound {
+    width: 600px;
+    margin: 50px auto;
+    outline: 1px solid red;
+    font-size: 0;
+}
+
+article.sound section.sound-content {
+    width: 300px;
+    display: inline-block;
+    font-size: 18px;
+}

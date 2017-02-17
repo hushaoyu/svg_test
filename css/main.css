@@ -1,0 +1,63 @@
+body {
+  background: #F0F0F0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  width: 800px;
+  color: black;
+  font-family: 'STHeiTi', 'Microsoft YaHei', 'HeiTi';
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+  box-shadow: inset 0 -1px #cccccc;
+}
+div.sound-article {
+  width: 600px;
+  margin: 20px auto;
+  font-size: 0;
+  text-align: center;
+}
+div.sound {
+  width: 300px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+}
+div.sound .avator {
+  display: block;
+  margin-top: 100px;
+  cursor: pointer;
+}
+div.sound a img {
+  border-radius: 100%;
+  overflow: hidden;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+div.sound .sound-content {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  left: 50%;
+  margin-left: -100px;
+  top: -10px;
+  padding: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+div.sound .sound-content p {
+  position: relative;
+  margin: 0;
+  font-size: 16px;
+}
+div.sound:hover .sound-content {
+  opacity: 1;
+}
+/*# sourceMappingURL=main.css.map */
